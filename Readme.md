@@ -16,7 +16,7 @@ About the base project:
 
 - global static files in 'staticfiles' directory
 - base template with bootstrap nav-bar on top 
-- auth system with login, logout, signup and password reset templates. Password reset sends a fake email as a local text file, replace with real email service in production.
+- auth system with login, logout, signup and password reset templates. Password reset sends a fake email as a local text file.
 
 note: bash script has default password for the site superuser. Change this setting before running docker-compose up so it is not same as in repo. I'll hide this in env as soon as I figure out how.
 
