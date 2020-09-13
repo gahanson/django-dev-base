@@ -16,5 +16,5 @@ About the base project:
 
 - global static files in 'staticfiles' directory
 - base template with bootstrap nav-bar on top 
-- auth system with login, logout, signup and password reset templates. Password reset sends a fake email as a local text file, replace with real email service in production.
+- auth system with login, logout, signup and password reset templates. Password reset sends a fake email as a local text file.
 
